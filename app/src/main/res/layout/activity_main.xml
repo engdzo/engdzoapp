@@ -18,9 +18,10 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        app:itemTextColor="#ffffff"
-        android:background="@color/colorPrimaryDark"
-        app:itemBackground="@color/colorPrimary"
+        app:itemTextAppearance="@font/raleway_thin"
+        app:itemTextColor="@color/colorAccent"
+        android:background="@color/whitebak"
+        app:itemBackground="@color/whitebak"
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_main"
         app:menu="@menu/activity_main_drawer" />

@@ -43,8 +43,9 @@
                 android:layout_toRightOf="@+id/item_image"
                 android:text="Title"
                 android:textColor="#ffffff"
-                android:textSize="25sp"
+                android:textSize="30sp"
                 android:layout_alignParentTop="true"
+
                 />
 
             <TextView
@@ -56,7 +57,9 @@
                 android:textColor="#ffffff"
                 android:textSize="20sp"
                 android:layout_toRightOf="@+id/item_image"
-                android:text="description" />
+                android:text="description"
+                android:layout_marginLeft="60dp"
+                android:fontFamily="@font/raleway_thin"/>
 
 
         </RelativeLayout>
