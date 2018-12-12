@@ -15,4 +15,6 @@
     <string name="EngDDC1">Dzongkha Development</string>
     <string name="engDDC2">Commision</string>
     <string name="Apptitle">Eng-Dzo Terminology</string>
+    <string name="comp_title">Eng-Dzo Basic Computer Terminology Book</string>
+    <string name="comp_description">English-Dzongkha Basic Computer Terminology book contains all the basic Computer terms used mostly by the computer and IT person.First edition of this book was launched and published by Dzongkha Development Commission on 2018.  </string>
 </resources>

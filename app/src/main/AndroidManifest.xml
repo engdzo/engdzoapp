@@ -12,10 +12,10 @@
         <activity
             android:name=".MainActivity"
             android:label="ENG-DZO Terminology"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Computer"
-            android:label="Computer" />
+            android:label="གློག་རིག/Computer" />
         <activity android:name=".Finance" />
         <activity
             android:name=".SplashActivity"
@@ -31,7 +31,8 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity android:name=".GitEx"></activity>
+        <activity android:name=".GitEx" />
+        <activity android:name=".DefinitionActivity"></activity>
     </application>
 
 </manifest>
