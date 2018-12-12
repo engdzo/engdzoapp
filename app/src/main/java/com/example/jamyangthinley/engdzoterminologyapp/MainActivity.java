@@ -20,6 +20,8 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
+import me.anwarshahriar.calligrapher.Calligrapher;
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     private RecyclerView recyclerView;
@@ -33,6 +35,8 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Calligrapher calligrapher=new Calligrapher(this);
+        //calligrapher.setFont(this,"Raleway-Light.ttf",true);
 
         recyclerView = (RecyclerView) findViewById(R.id.recyclerViewID);
         recyclerView.setHasFixedSize(true);
@@ -171,6 +175,7 @@ public class MainActivity extends AppCompatActivity
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
+
         return true;
     }
 }

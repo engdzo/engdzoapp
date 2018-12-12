@@ -78,7 +78,7 @@
         app:layout_constraintTop_toBottomOf="@+id/termonologyapp"
         app:layout_constraintVertical_bias="0.114"
         app:sslv_color="#ffff"
-        app:sslv_delay="15"
+        app:sslv_delay="10"
         app:sslv_duration="100"
         app:sslv_gap="2dp"
         app:sslv_square_length="12dp"
@@ -103,7 +103,8 @@
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/loader"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:fontFamily="@font/raleway" />
 
     <TextView
         android:id="@+id/dzoDDC"
